@@ -1,10 +1,12 @@
 import React from "react";
 
 import { Button, Img, Text } from "components";
+import Home from "pages/Home";
 
 const CardsPage = () => {
   return (
     <>
+    <Home/>
       <div className="bg-gray-300_01 flex sm:flex-col md:flex-col flex-row font-roboto sm:gap-10 md:gap-10 gap-[253px] items-center justify-start mx-auto p-[285px] md:px-10 sm:px-5 w-full">
         <div className="md:h-[410px] h-[412px] relative w-[37%] md:w-full">
           <Text

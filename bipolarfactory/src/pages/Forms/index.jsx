@@ -2,10 +2,12 @@ import React from "react";
 
 import { Button, Img, Input, Line, Text } from "components";
 import FormsColumnstrokeTwo from "components/FormsColumnstrokeTwo";
+import Home from "pages/Home";
 
 const FormsPage = () => {
   return (
     <>
+    <Home/>
       <div className="bg-gray-300_01 flex flex-col font-roboto items-center justify-start mx-auto p-[141px] md:px-10 sm:px-5 w-full">
         <div className="flex flex-col items-center justify-start rounded-[16px] shadow-bs1 w-auto md:w-full">
           <div className="bg-white-A700 flex flex-col items-start justify-start pb-[90px] pt-[60px] md:px-10 sm:px-5 px-[72px] rounded-[16px] w-auto md:w-full">

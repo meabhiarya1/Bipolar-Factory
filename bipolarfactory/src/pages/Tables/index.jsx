@@ -3,6 +3,7 @@ import React from "react";
 import { createColumnHelper } from "@tanstack/react-table";
 
 import { Img, ReactTable, Text } from "components";
+import Home from "pages/Home";
 
 const TablesPage = () => {
   const tableData = React.useRef([
@@ -174,6 +175,7 @@ const TablesPage = () => {
 
   return (
     <>
+    <Home/>
       <div className="bg-gray-300_01 flex flex-col font-notosans items-center justify-center mx-auto p-[238px] md:px-10 sm:px-5 w-full">
         <div className="flex flex-col items-start justify-start max-w-[1035px] mx-auto my-[23px] w-full">
           <div className="overflow-auto bg-white-A700 outline outline-[2px] outline-blue_gray-50 rounded-[12px] w-full">

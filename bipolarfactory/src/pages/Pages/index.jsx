@@ -1,10 +1,12 @@
 import React from "react";
 
 import { Button, Img, List, Text } from "components";
+import Home from "pages/Home";
 
 const Pages = () => {
     return (
         <>
+            <Home/>
             <div className="bg-gray-50 flex flex-col font-roboto items-center justify-start mx-auto p-[75px] md:px-10 sm:px-5 w-full">
                 <div className="flex flex-col gap-9 items-start justify-start max-w-[1115px] mx-auto w-full">
                     <div className="flex md:flex-col flex-row md:gap-10 gap-[232px] items-start justify-start w-full">
