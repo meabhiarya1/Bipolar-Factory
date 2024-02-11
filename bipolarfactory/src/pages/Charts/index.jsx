@@ -1,8 +1,8 @@
 import React from "react";
 
-import { CircularProgressbar } from "react-circular-progressbar";
+// import { CircularProgressbar } from "react-circular-progressbar";
+// import { Button, Img, Input, List, Text } from "components";
 
-import { Button, Img, Input, List, Text } from "components";
 import ChartsHealthgraph from "components/ChartsHealthgraph";
 import Home from "pages/Home";
 
